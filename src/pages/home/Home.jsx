@@ -4,7 +4,7 @@ import Card from '../../components/Card'
 
 function Home() {
     return (
-        <main>
+        <main id="main">
             <div className='bg-beach'>
                 <div className="block">
                     <h1>Praia</h1>
@@ -14,7 +14,7 @@ function Home() {
                 </div>
             </div>
 
-            <section className='section1'>
+            <section id="title" className='section1'>
                 <div className="title">
                     <h1>O que você irá encontra por aqui</h1>
                 </div>

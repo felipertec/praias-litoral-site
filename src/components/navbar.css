@@ -5,6 +5,7 @@
 }
 .bg-navbar{
     background: linear-gradient(90deg, rgba(9,100,121,1) 0%, rgba(0,249,255,1) 45%, rgba(0,212,255,1) 100%);
+    width: 100%;
 }
 
 .navbar{
@@ -14,6 +15,17 @@
     margin-left: 150px;
     margin-right: 150px;
 }
+
+
+.navbar__fixed{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    transition: 2s;
+    padding: 5px;
+}
+
+
 
 .nav__logo{
     width: 100px;
@@ -48,7 +60,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 50px;
     cursor: pointer;
+    text-decoration: none;
+    scroll-behavior: smooth;
 }
+
 
 .nav__link:hover{
     color: white;
